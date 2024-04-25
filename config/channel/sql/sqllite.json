@@ -1,0 +1,4 @@
+{
+  "name": "channel",
+  "jdbcUrl": "jdbc:sqlite:data/sqllite/channel.db"
+}

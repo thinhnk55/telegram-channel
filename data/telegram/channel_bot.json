@@ -1,0 +1,11 @@
+{
+  "name": "channel_rose_bot",
+  "token": "7179357074:AAFkB2ThSk8qJSb4WUGtfo5IU6aRtaVpE2A",
+  "channel_name": "v88nohu",
+  "channel_id": -1002115992127,
+  "modules": {
+    "kqxs": {
+      "lang": "data/telegram/kqxs/kqxs_lang.json"
+    }
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "tinh": [
+    {
+      "code": "mien-bac",
+      "name": "Miền bắc",
+      "day": [1,2,3,4,5,6,7],
+      "region": "bac",
+      "hour": "18h15 - 18h35"
+    },
+    {
+      "code": "an-giang",
+      "name": "An Giang",
+      "day": [5],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "bac-lieu",
+      "name": "Bạc Liêu",
+      "day": [3],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "ben-tre",
+      "name": "Bến Tre",
+      "day": [3],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "binh-dinh",
+      "name": "Bình Định",
+      "day": [5],
+      "region": "trung",
+      "hour": "17h15 - 17h35"
+    },
+    {
+      "code": "binh-duong",
+      "name": "Bình Dương",
+      "day": [6],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "binh-phuoc",
+      "name": "Bình Phước",
+      "day": [7],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "binh-thuan",
+      "name": "Bình Thuận",
+      "day": [5],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "ca-mau",
+      "name": "Cà Mau",
+      "day": [2],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "can-tho",
+      "name": "Cần Thơ",
+      "day": [4],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "da-lat",
+      "name": "Đà Lạt",
+      "day": [1],
+      "region": "trung",
+      "hour": "17h15 - 17h35"
+    },
+    {
+      "code": "da-nang",
+      "name": "Đà Nẵng",
+      "day": [4,7],
+      "region": "trung",
+      "hour": "17h15 - 17h35"
+    },
+    {
+      "code": "dak-lak",
+      "name": "Đắk Lắk",
+      "day": [3],
+      "region": "trung",
+      "hour": "17h15 - 17h35"
+    },
+    {
+      "code": "dak-nong",
+      "name": "Đắk Nông",
+      "day": [7],
+      "region": "trung",
+      "hour": "17h15 - 17h35"
+    },
+    {
+      "code": "dong-nai",
+      "name": "Đồng Nai",
+      "day": [4],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "dong-thap",
+      "name": "Đồng Tháp",
+      "day": [2],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "gia-lai",
+      "name": "Gia Lai",
+      "day": [6],
+      "region": "trung",
+      "hour": "17h15 - 17h35"
+    },
+    {
+      "code": "hau-giang",
+      "name": "Hậu Giang",
+      "day": [7],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "khanh-hoa",
+      "name": "Khánh Hòa",
+      "day": [4],
+      "region": "trung",
+      "hour": "17h15 - 17h35"
+    },
+    {
+      "code": "kien-giang",
+      "name": "Kiên Giang",
+      "day": [1],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+
+    },
+    {
+      "code": "kon-tum",
+      "name": "Kon Tum",
+      "day": [1],
+      "region": "trung",
+      "hour": "17h15 - 17h35"
+    },
+    {
+      "code": "long-an",
+      "name": "Long An",
+      "day": [7],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "ninh-thuan",
+      "name": "Ninh Thuận",
+      "day": [6],
+      "region": "trung",
+      "hour": "17h15 - 17h35"
+    },
+    {
+      "code": "phu-yen",
+      "name": "Phú Yên",
+      "day": [2],
+      "region": "trung",
+      "hour": "17h15 - 17h35"
+    },
+    {
+      "code": "quang-binh",
+      "name": "Quảng Bình",
+      "day": [5],
+      "region": "trung",
+      "hour": "17h15 - 17h35"
+    },
+    {
+      "code": "quang-nam",
+      "name": "Quảng Nam",
+      "day": [3],
+      "region": "trung",
+      "hour": "17h15 - 17h35"
+    },
+    {
+      "code": "quang-ngai",
+      "name": "Quảng Ngãi",
+      "day": [7],
+      "region": "trung",
+      "hour": "17h15 - 17h35"
+    },
+    {
+      "code": "quang-tri",
+      "name": "Quảng Trị",
+      "day": [5],
+      "region": "trung",
+      "hour": "17h15 - 17h35"
+    },
+    {
+      "code": "soc-trang",
+      "name": "Sóc Trăng",
+      "day": [4],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "tay-ninh",
+      "name": "Tây Ninh",
+      "day": [5],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "thua-thien-hue",
+      "name": "Thừa T. Huế",
+      "day": [2],
+      "region": "trung",
+      "hour": "17h15 - 17h35"
+    },
+    {
+      "code": "tien-giang",
+      "name": "Tiền Giang",
+      "day": [1],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "tp-hcm",
+      "name": "TP. HCM",
+      "day": [2,7],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "tra-vinh",
+      "name": "Trà Vinh",
+      "day": [6],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "vinh-long",
+      "name": "Vĩnh Long",
+      "day": [6],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    },
+    {
+      "code": "vung-tau",
+      "name": "Vũng Tàu",
+      "day": [3],
+      "region": "nam",
+      "hour": "16h15 - 16h35"
+    }
+  ]
+}

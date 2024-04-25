@@ -1,0 +1,10 @@
+{
+  "default": "vi",
+  "support_language": [
+    "vi"
+  ],
+  "vi": {
+    "kq_mb": ":slot_machine:KẾT QUẢ XỔ SỐ MIỀN BẮC\n\n:date: *@DAY*\n\n:gift: *@GIAIDB*\n\n:one: *@GIAI1*\n\n:two: *@GIAI2*\n\n:three: *@GIAI3*\n\n:four: *@GIAI4*\n\n:five: *@GIAI5*\n\n:six: *@GIAI6*\n\n:seven: *@GIAI7*\n\n",
+    "mkt_footer":":fire::boom: V88 nổ hũ \\- Bùng nổ GIFTCODE không giới hạn\n:point_right:[Chơi ngay](https://t.me/blockchain_gamefi_bot)"
+  }
+}

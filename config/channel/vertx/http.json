@@ -1,0 +1,6 @@
+{
+  "name": "gamefi",
+  "url_prefix": "/gf",
+  "http_port": 8181,
+  "websocket_port": 8686
+}
