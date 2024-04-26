@@ -22,15 +22,15 @@ public class ChannelLauncher {
 
     private static void startLoop() {
         ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();
-        scheduler.scheduleAtFixedRate(ChannelLauncher::loop, 1, 1, TimeUnit.MINUTES);
+        scheduler.scheduleAtFixedRate(ChannelLauncher::loop, 0, 1, TimeUnit.MINUTES);
     }
 
     private static void loop() {
-        TelegramChannelManager.instance().loop();
+        KqxsManager.instance().loop();
     }
 
     private static void initLogic() {
-        KqxsManager.instance().init("kqxs");
+        KqxsManager.instance().init("data/kqxs/kqxs.json");
         TelegramChannelManager.instance().init("data/telegram/channel_bot.json");
     }
 

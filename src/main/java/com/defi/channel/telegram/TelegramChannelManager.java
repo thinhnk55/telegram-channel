@@ -1,8 +1,8 @@
 package com.defi.channel.telegram;
 
-import com.defi.channel.telegram.common.CommonMessage;
 import com.defi.util.json.GsonUtil;
 import com.google.gson.JsonObject;
+import com.pengrad.telegrambot.TelegramBot;
 
 public class TelegramChannelManager {
     private static TelegramChannelManager ins;
@@ -25,13 +25,9 @@ public class TelegramChannelManager {
         channelBot.run();
     }
     BaseBot channelBot;
-    long channel_id;
+    public long channel_id;
 
-    public void sendToChannel(String content){
-        CommonMessage.sendMessage(channelBot.bot, channel_id, content);
-    }
-
-    public void loop() {
-
+    public TelegramBot getTelegramBot(){
+        return channelBot.bot;
     }
 }

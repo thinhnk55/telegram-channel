@@ -22,7 +22,6 @@ public class HikariClient {
         prop.put("jdbcUrl", jdbcUrl);
         prop.load(input);
         HikariConfig config = new HikariConfig(prop);
-        config.setAutoCommit(false);
         dataSource = new HikariDataSource(config);
     }
 

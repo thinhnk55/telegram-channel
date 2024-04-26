@@ -1,8 +1,8 @@
 {
-  "name": "channel_rose_bot",
-  "token": "7179357074:AAFkB2ThSk8qJSb4WUGtfo5IU6aRtaVpE2A",
-  "channel_name": "v88nohu",
-  "channel_id": -1002115992127,
+  "name": "channel_4_bot",
+  "token": "7024950074:AAEryskfg9V83qwC6t1OBw7wmWyoI1PDtck",
+  "channel_name": "hotnews68",
+  "channel_id": -1002102609748,
   "modules": {
     "kqxs": {
       "lang": "data/telegram/kqxs/kqxs_lang.json"

@@ -1,6 +1,7 @@
 package com.defi.kqxs;
 
 import com.defi.common.SimpleResponse;
+import com.defi.util.log.DebugLogger;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import org.jsoup.Connection;
@@ -9,13 +10,13 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 
-public class KQXS {
-    public static JsonObject getKQXS(String name, int day, int month, int year){
+public class KQXSHelper {
+    public static JsonObject getKQXS(String tinh, int day, int month, int year){
         JsonObject json = new JsonObject();
-        json.addProperty("name", name);
+        json.addProperty("tinh", tinh);
         String url = new StringBuilder()
                 .append("https://www.xoso.net/getkqxs/")
-                .append(name).append("/")
+                .append(tinh).append("/")
                 .append(day).append("-")
                 .append(month).append("-")
                 .append(year).append(".js")
@@ -29,14 +30,14 @@ public class KQXS {
             }
             String thu = element.getElementsByClass("thu").first().text();
             String ngay = "";
-            if(name.equals("mien-bac") || name.equals("binhdinh")
-                    || name.equals("da-nang") || name.equals("dak-lak")
-                    || name.equals("dak-nong") || name.equals("gia-lai")
-                    || name.equals("khanh-hoa") || name.equals("kon-tum")
-                    || name.equals("ninh-thuan") || name.equals("phu-yen")
-                    || name.equals("quang-binh") || name.equals("quang-nam")
-                    || name.equals("quang-ngai") || name.equals("quang-tri")
-                    || name.equals("thua-thien-hue")
+            if(tinh.equals("mien-bac") || tinh.equals("binhdinh")
+                    || tinh.equals("da-nang") || tinh.equals("dak-lak")
+                    || tinh.equals("dak-nong") || tinh.equals("gia-lai")
+                    || tinh.equals("khanh-hoa") || tinh.equals("kon-tum")
+                    || tinh.equals("ninh-thuan") || tinh.equals("phu-yen")
+                    || tinh.equals("quang-binh") || tinh.equals("quang-nam")
+                    || tinh.equals("quang-ngai") || tinh.equals("quang-tri")
+                    || tinh.equals("thua-thien-hue")
             ) {
                 ngay = element.getElementsByClass("ngay").first().text();
                 String[] subs = ngay.split(" ");
@@ -47,9 +48,10 @@ public class KQXS {
                 ngay = subs[subs.length-1];
             }
             JsonObject time = new JsonObject();
-            json.add("time", time);
+            json.addProperty("ngay", ngay);
             time.addProperty("thu", thu);
             time.addProperty("ngay", ngay);
+            json.add("time", time);
             JsonObject kq = new JsonObject();
             json.add("kq", kq);
             JsonObject extra = new JsonObject();

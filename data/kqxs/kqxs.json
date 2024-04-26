@@ -1,4 +1,7 @@
 {
+  "kqxs_table": "kqxs",
+  "task_table": "task",
+  "day_in_week": ["Nope","Chủ nhật", "Thứ hai", "Thứ ba", "Thứ tư", "Thứ năm", "Thứ sáu", "Thứ bảy"],
   "tinh": [
     {
       "code": "mien-bac",

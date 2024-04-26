@@ -1,7 +1,7 @@
 package com.defi;
 
 import com.defi.common.SimpleResponse;
-import com.defi.kqxs.KQXS;
+import com.defi.kqxs.KQXSHelper;
 import com.defi.util.json.GsonUtil;
 import com.defi.util.log.DebugLogger;
 import com.google.gson.JsonArray;
@@ -28,7 +28,7 @@ public class KQXSTest {
                     int year = calendar.get(Calendar.YEAR);
                     int month = calendar.get(Calendar.MONTH)+1;
                     int day = calendar.get(Calendar.DAY_OF_MONTH);
-                    JsonObject response = KQXS.getKQXS(tinh, day, month, year);
+                    JsonObject response = KQXSHelper.getKQXS(tinh, day, month, year);
                     if(SimpleResponse.isSuccess(response)){
                         JsonObject kq = response.getAsJsonObject("d");
                         DebugLogger.logger.info(kq.toString());

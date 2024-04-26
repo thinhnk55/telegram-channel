@@ -62,6 +62,14 @@ public class GsonUtil {
         }
         return values;
     }
+    public static String[] toStringArray(JsonArray array) {
+        String[] values = new String[array.size()];
+        for(int i = 0; i < array.size(); i++){
+            values[i] = array.get(i).getAsString();
+        }
+        return values;
+
+    }
 
     public static JsonArray toJsonArray(int[][] intArray) {
         JsonArray array = new JsonArray();
@@ -94,4 +102,6 @@ public class GsonUtil {
         }
         return array;
     }
+
+
 }
